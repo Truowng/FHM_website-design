@@ -1,0 +1,21 @@
+.values-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.values-container .fbox-icon {
+  margin-bottom: 0 !important;
+}
+
+.card {
+  width: 100%;
+}
+
+.flex-d-reverse {
+  flex-direction: row-reverse;
+}
+
+.fhm-form {
+  box-shadow: 0 0 30px rgba(254, 150, 3, 15%);
+}
