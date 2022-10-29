@@ -1,0 +1,2064 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-seo-optimizations.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 14:57:38 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&amp;display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <!-- Bootstrap Switch CSS -->
+    <link
+      rel="stylesheet"
+      href="css/components/bs-switches.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./fhm__content.css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
+
+    <!-- Seo Demo Specific Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="css/colors69bb.css?color=FE9603"
+      type="text/css"
+    />
+    <!-- Theme Color -->
+    <link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="demos/seo/seo.css" type="text/css" />
+    <!-- / -->
+
+    <!-- Document Title
+	============================================= -->
+    <title>SEO Optimizations - SEO Demo | Canvas</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Top Bar
+		============================================= -->
+      <div id="top-bar" class="transparent-topbar dark">
+        <div class="container clearfix">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-auto">
+              <!-- Top Links
+						============================================= -->
+              <div class="top-links">
+                <ul class="top-links-container">
+                  <li class="top-links-item">
+                    <a href="demo-seo.html">Home</a>
+                  </li>
+                  <li class="top-links-item">
+                    <a href="demo-seo-faqs.html">FAQs</a>
+                  </li>
+                  <li class="top-links-item">
+                    <a href="demo-seo-contact.html">Contact</a>
+                  </li>
+                  <li class="top-links-item">
+                    <a href="#"
+                      ><img
+                        src="demos/seo/images/flags/eng.png"
+                        alt="Lang"
+                      />Eng</a
+                    >
+                    <ul class="top-links-sub-menu">
+                      <li class="top-links-item">
+                        <a href="#"
+                          ><img
+                            src="demos/seo/images/flags/fre.png"
+                            alt="Lang"
+                          />French</a
+                        >
+                      </li>
+                      <li class="top-links-item">
+                        <a href="#"
+                          ><img
+                            src="demos/seo/images/flags/ara.png"
+                            alt="Lang"
+                          />Arabic</a
+                        >
+                      </li>
+                      <li class="top-links-item">
+                        <a href="#"
+                          ><img
+                            src="demos/seo/images/flags/tha.png"
+                            alt="Lang"
+                          />Thai</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <!-- .top-links end -->
+            </div>
+
+            <div class="col-12 col-md-auto dark">
+              <!-- Top Social
+						============================================= -->
+              <ul id="top-social">
+                <li>
+                  <a
+                    href="https://facebook.com/semicolonweb"
+                    class="si-facebook"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-facebook"></i></span
+                    ><span class="ts-text">Facebook</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/__semicolon"
+                    class="si-twitter"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-twitter"></i></span
+                    ><span class="ts-text">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://youtube.com/semicolonweb"
+                    class="si-youtube"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-youtube"></i></span
+                    ><span class="ts-text">Youtube</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com/semicolonweb"
+                    class="si-instagram"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-instagram2"></i></span
+                    ><span class="ts-text">Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+10.11.85412542" class="si-call"
+                    ><span class="ts-icon"><i class="icon-call"></i></span
+                    ><span class="ts-text">+10.11.85412542</span></a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:info@canvas.com" class="si-email3"
+                    ><span class="ts-icon"
+                      ><i class="icon-envelope-alt"></i></span
+                    ><span class="ts-text">info@canvas.com</span></a
+                  >
+                </li>
+              </ul>
+              <!-- #top-social end -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #top-bar end -->
+
+      <!-- Header
+		============================================= -->
+      <header
+        id="header"
+        class="transparent-header floating-header header-size-md"
+      >
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row">
+              <!-- Logo
+						============================================= -->
+              <div id="logo">
+                <a
+                  href="index-2.html"
+                  class="standard-logo"
+                  data-dark-logo="images/logo-dark.png"
+                  ><img src="./images/logo.png" alt="Canvas Logo"
+                /></a>
+                <a
+                  href="index-2.html"
+                  class="retina-logo"
+                  data-dark-logo="images/logo-dark@2x.png"
+                  ><img src="./images/logo%402x.png" alt="Canvas Logo"
+                /></a>
+              </div>
+              <!-- #logo end -->
+
+              <div class="header-misc">
+                <!-- Top Search
+							============================================= -->
+                <div id="top-search" class="header-misc-icon">
+                  <a href="#" id="top-search-trigger"
+                    ><i class="icon-line-search"></i
+                    ><i class="icon-line-cross"></i
+                  ></a>
+                </div>
+                <!-- #top-search end -->
+
+                <a
+                  href="demo-seo-about.html"
+                  class="button button-rounded ms-3 d-none d-sm-block"
+                  >Get Started</a
+                >
+              </div>
+
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div>
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu with-arrows">
+                <ul class="menu-container">
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo.html"
+                      ><div>Home</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo-about.html"
+                      ><div>What We Do</div></a
+                    >
+                  </li>
+                  <li class="menu-item mega-menu current">
+                    <div class="menu-link"><div>Services</div></div>
+                    <div class="mega-menu-content mega-menu-style-2 px-0">
+                      <div class="container">
+                        <div class="row">
+                          <a
+                            href="demo-seo-optimizations.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/seo.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Seo Optimization</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-social.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/social.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Social Media Marketing</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-adwords.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/adword.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Adwords Campaign</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-experience.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/experience.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Customer Experience</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-analysis.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/analysis.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Digital Analysis</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-content-marketing.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/content_marketing.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Content Marketing</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <div
+                            class="mega-menu-column sub-menu-container col-12 p-0"
+                          >
+                            <a
+                              href="demo-seo-about.html"
+                              class="button button-rounded button-large nott ls0 w-100 text-center m-0 rounded-0 py-3 button-light"
+                              >View All <i class="icon-line-arrow-right"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo-faqs.html"
+                      ><div>FAQs</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo-contact.html"
+                      ><div>Contact</div></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+
+              <form
+                class="top-search-form"
+                action="http://themes.semicolonweb.com/html/canvas/search.html"
+                method="get"
+              >
+                <input
+                  type="text"
+                  name="q"
+                  class="form-control"
+                  value=""
+                  placeholder="Type &amp; Hit Enter.."
+                  autocomplete="off"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+
+      <!-- Page Title
+		============================================= -->
+
+      <section
+        id="page-title"
+        class="page-title-parallax page-title-center page-title-dark include-header"
+        style="
+          background-image: linear-gradient(
+              to top,
+              rgba(254, 150, 3, 0.5),
+              #39384d
+            ),
+            url('demos/seo/images/services/seo-title.jpg');
+          background-size: cover;
+          padding: 120px 0;
+        "
+        data-bottom-top="background-position:0px 300px;"
+        data-top-bottom="background-position:0px -300px;"
+      >
+        <div id="particles-line"></div>
+
+        <div class="container clearfix mt-4">
+          <div class="badge rounded-pill border border-light text-light">
+            Services
+          </div>
+          <h1>SEO Optimizations</h1>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="demo-seo.html">Home</a></li>
+            <li class="breadcrumb-item">
+              <a href="demo-seo-about.html">Services</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              SEO Optimizations
+            </li>
+          </ol>
+        </div>
+      </section>
+      <!-- #page-title end -->
+
+      <!-- Content
+		============================================= -->
+      <section id="content">
+        <div class="content-wrap pb-0">
+          <div class="container">
+            <div class="row align-items-end">
+              <div class="col-lg-6">
+                <!-- <div class="badge rounded-pill badge-default">SEO Ready</div> -->
+                <h2 class="display-4 fw-bold">
+                  DỊCH VỤ CONTENT MARKETING CHO DOANH NGHIỆP
+                </h2>
+                <p>
+                  Phát triển doanh nghiệp của bạn lên tầm cao mới với nội dung
+                  sáng tạo, đúng quy chuẩn. Chúng tôi luôn đo lường và tư vấn
+                  những chiến lược viết content phù hợp nhất với mục tiêu phát
+                  triển của khách hàng.
+                </p>
+
+                <a href="#" class="button button-rounded button-large nott ls0"
+                  >Đăng kí tư vấn</a
+                >
+              </div>
+              <div class="col-lg-6 mt-4 mt-lg-0">
+                <img src="demos/seo/images/services/seo.svg" alt="Image" />
+              </div>
+            </div>
+
+            <div class="clear line my-6"></div>
+
+            <!-- <div
+              class="row col-mb-30 align-content-stretch service-row-container"
+            >
+              <div class="col-lg-4 col-md-6 d-flex card-container">
+                <div class="card card__border-radius">
+                  <div class="card-body p-5">
+                    <div class="feature-box flex-column">
+                      <div class="fbox-content card-content">
+                        <h3 class="nott ls0 text-larger">
+                          Thúc đẩy doanh thu nhờ thương hiệu chuyên nghiệp
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row col-mb-30 align-content-stretch service-row-container"
+            >
+              <div class="col-lg-4 col-md-6 d-flex card-container">
+                <div class="card card__border-radius">
+                  <div class="card-body p-5">
+                    <div class="feature-box flex-column">
+                      <div class="fbox-content card-content">
+                        <h3 class="nott ls0 text-larger">
+                          Thiết kế website độc nhất, tăng năng lực cạnh tranh
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex card-container">
+                <div class="card card__border-radius">
+                  <div class="card-body p-5">
+                    <div class="feature-box flex-column">
+                      <div class="fbox-content card-content">
+                        <h3 class="nott ls0 text-larger">
+                          Thiết kế chuẩn UI/UX tối ưu trải nghiệm người dùng
+                          dùng
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row col-mb-30 align-content-stretch service-row-container"
+            >
+              <div class="col-lg-4 col-md-6 d-flex card-container">
+                <div class="card card__border-radius">
+                  <div class="card-body p-5">
+                    <div class="feature-box flex-column">
+                      <div class="fbox-content card-content">
+                        <h3 class="nott ls0 text-larger">
+                          Chăm sóc khách hàng 24/7 trong dự án và hậu mãi
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex card-container">
+                <div class="card card__border-radius">
+                  <div class="card-body p-5">
+                    <div class="feature-box flex-column">
+                      <div class="fbox-content card-content">
+                        <h3 class="nott ls0 text-larger">
+                          Đội ngũ thiết kế website chuyên nghiệp, giàu kinh
+                          nghiệm
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex card-container">
+                <div class="card card__border-radius">
+                  <div class="card-body p-5">
+                    <div class="feature-box flex-column">
+                      <div class="fbox-content card-content">
+                        <h3 class="nott ls0 text-larger">
+                          Tích hợp đa tính năng, phù hợp ngành hàng của doanh
+                          nghiệp
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+          <div class="clear"></div>
+
+          <div class="container-fluid reason-container">
+            <div class="heading-block border-bottom-0 center">
+              <!-- <div class="badge rounded-pill badge-default">Features</div> -->
+              <h2 class="nott ls0 mb-3">
+                5 LÍ DO MÀ DOANH NGHIỆP CỦA BẠN CẦN ĐẾN CONTENT MARKETING
+              </h2>
+              <p>
+                Content Marketing là xương sống của hoạt động quảng bá doanh
+                nghiệp. Một kế hoạch viết content chi tiết với mục tiêu rõ ràng
+                có thể giúp tăng trưởng doanh thu nhanh chóng.
+              </p>
+            </div>
+            <div class="clear"></div>
+            <div class="row align-items-end content-row">
+              <div class="col-lg-6">
+                <!-- <div class="badge rounded-pill badge-default">SEO Ready</div> -->
+                <!-- <h2 class="fw-bold">DỊCH VỤ VIẾT CONTENT THEO SỐ LƯỢNG</h2> -->
+                <p>
+                  <i class="fa-solid fa-money-bill"></i>
+                  Thúc đẩy doanh thu nhờ thương hiệu chuyên nghiệp
+                </p>
+                <p>
+                  <i class="fa-solid fa-compass-drafting"></i>
+                  Thiết kế website độc nhất, tăng năng lực cạnh tranh
+                </p>
+                <p>
+                  <i class="fa-brands fa-uikit"></i>
+                  Thiết kế chuẩn UI/UX tối ưu trải nghiệm người dùng
+                </p>
+                <p>
+                  <i class="fa-solid fa-user"></i>
+                  Chăm sóc khách hàng 24/7 trong dự án và hậu mãi
+                </p>
+                <p>
+                  <i class="fa-solid fa-star"></i>
+                  Đội ngũ thiết kế website chuyên nghiệp, giàu kinh nghiệm
+                </p>
+
+                <!-- <a href="#" class="button button-rounded button-large nott ls0"
+                  >Đăng kí tư vấn</a
+                > -->
+              </div>
+              <div class="col-lg-6 mt-4 mt-lg-0 reason-image-container">
+                <img
+                  class="reason-image"
+                  src="https://cdn-icons-png.flaticon.com/512/4105/4105456.png"
+                  alt="Image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="section lazy mt-5 p-0 min-vh-75 entered lazy-loaded separate-image-container"
+            data-bg="https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+            style="
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-color: #fe9603;
+            "
+            data-ll-status="loaded"
+          >
+            <div
+              class="shape-divider"
+              data-shape="rounded-4"
+              data-height="150"
+              id="shape-divider-487"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1280 140"
+                preserveAspectRatio="none"
+                class="op-ts op-1"
+              >
+                <path
+                  class="shape-divider-fill"
+                  d="M0 0s573.08 140 1280 140V0z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="shape-divider"
+              data-shape="wave-2"
+              data-position="bottom"
+              data-height="150"
+              id="shape-divider-8155"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1280 140"
+                preserveAspectRatio="none"
+                class="op-ts op-1"
+              >
+                <path
+                  class="shape-divider-fill"
+                  d="M0 0s573.08 140 1280 140V0z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <!-- Service section  -->
+
+          <div class="container mw-md">
+            <div class="heading-block border-bottom-0 center mx-auto">
+              <div class="badge rounded-pill badge-default">DỊCH VỤ</div>
+              <h3 class="nott ls0 mb-3">DỊCH VỤ CỦA CHÚNG TÔI</h3>
+              <p>
+                FHM Việt Nam cung cấp các dịch vụ phát triển nội dung chuyên
+                nghiệp bao gồm: dịch vụ content chuẩn SEO, dịch vụ content
+                Review, dịch vụ content Social, dịch vụ content PR Báo chí, dịch
+                vụ content theo yêu cầu.
+              </p>
+            </div>
+
+            <!-- Portfolio Items
+					============================================= -->
+            <div id="portfolio" class="portfolio row grid-container gutter-30">
+              <article
+                class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+              >
+                <div class="grid-inner">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/masonry/3/1.jpg"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html"
+                        >Dịch vụ viết content chuẩn SEO
+                      </a>
+                    </h3>
+                    <span
+                      ><a href="#"
+                        >Viết content chuẩn bộ từ khóa, nội dung mới 100% giúp
+                        tối ưu SEO lên top
+                      </a></span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="portfolio-item col-md-4 col-sm-6 col-12 pf-illustrations"
+              >
+                <div class="grid-inner">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/masonry/3/2.jpg"
+                        alt="Locked Steel Gate"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html"
+                        >Dịch vụ viết content review
+                      </a>
+                    </h3>
+                    <span
+                      ><a href="#"
+                        >So sánh trực quan, rõ ràng về sản phẩm, tăng độ tin
+                        tưởng cho khách hàng về sản phẩm
+                      </a></span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="portfolio-item col-md-4 col-sm-6 col-12 pf-graphics pf-uielements"
+              >
+                <div class="grid-inner">
+                  <div class="portfolio-image">
+                    <a href="#">
+                      <img
+                        src="images/portfolio/masonry/3/3.jpg"
+                        alt="Mac Sunglasses"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single-video.html"
+                        >Dịch vụ viết content PR báo chí
+                      </a>
+                    </h3>
+                    <span
+                      ><a href="#"
+                        >Nội dung thu hút, tạo điều kiện để backlink uy tín,
+                        tăng độ truth cho website của bạn trên thanh tìm kiếm
+                        google
+                      </a></span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="portfolio-item col-md-4 col-sm-6 col-12 pf-icons pf-illustrations"
+              >
+                <div class="grid-inner">
+                  <div class="portfolio-image">
+                    <div
+                      class="fslider"
+                      data-arrows="false"
+                      data-speed="400"
+                      data-pause="4000"
+                    >
+                      <div class="flexslider">
+                        <div class="slider-wrap">
+                          <div class="slide">
+                            <a href="portfolio-single-gallery.html"
+                              ><img
+                                src="images/portfolio/masonry/3/4.jpg"
+                                alt="Morning Dew"
+                            /></a>
+                          </div>
+                          <div class="slide">
+                            <a href="portfolio-single-gallery.html"
+                              ><img
+                                src="images/portfolio/masonry/3/4-1.jpg"
+                                alt="Morning Dew"
+                            /></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-overlay" data-lightbox="gallery">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/4-1.jpg"
+                          class="d-none"
+                          data-lightbox="gallery-item"
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single-gallery.html"
+                        >Dịch vụ viết content Social
+                      </a>
+                    </h3>
+                    <span
+                      ><a href="#"
+                        >Là một phần không thể thiếu để lan tỏa thương hiệu,
+                        chúng tôi cung cấp dịch vụ viết content social lan tỏa
+                        thương hiệu và tăng tỷ lệ chuyển đổi
+                      </a></span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="portfolio-item col-md-4 col-sm-6 col-12 pf-uielements pf-media"
+              >
+                <div class="grid-inner">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/masonry/3/5.jpg"
+                        alt="Console Activity"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html"
+                        >Dich vụ viết content theo yêu cầu</a
+                      >
+                    </h3>
+                    <span
+                      ><a href="#"
+                        >Dịch vụ viết content FHM Việt Nam đem lại cho khách
+                        hàng chất lượng dịch vụ tư vấn tốt nhất và viết bài theo
+                        kế hoạch dựng sẵn của khách hàng
+                      </a></span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- #portfolio end -->
+          </div>
+
+          <!-- Benefit -->
+
+          <div class="container benefit-container">
+            <div class="row align-items-center flex-d-reverse">
+              <div class="col-lg-6">
+                <!-- <div class="badge rounded-pill badge-default">SEO Ready</div> -->
+                <h2 class="display-6 fw-bold">LỢI ÍCH KHI SỬ DỤNG DỊCH VỤ</h2>
+                <ul class="benefit-list">
+                  <li>Chiến lược xây dựng nội dung sáng tạo</li>
+                  <li>Quảng cáo tăng độ phủ thương hiệu</li>
+                  <li>Đo lường hiệu quả, đúng tiến độ</li>
+                  <li>Liên tục tối ưu nội dung</li>
+                </ul>
+
+                <!-- <a href="#" class="button button-rounded button-large nott ls0"
+                  >Đăng kí tư vấn</a
+                > -->
+              </div>
+              <div class="col-lg-6 mt-4 mt-lg-0">
+                <img src="./demos/seo/images/services/social.svg" alt="Image" />
+              </div>
+            </div>
+
+            <div class="clear line my-6" style="display: none"></div>
+
+            <div class="clear"></div>
+          </div>
+
+          <!-- Step -->
+          <div class="section mb-0">
+            <div class="container">
+              <div class="heading-block border-bottom-0 center">
+                <div class="badge rounded-pill badge-default">QUY TRÌNH</div>
+                <h3 class="nott ls0">
+                  QUY TRÌNH DỊCH VỤ VIẾT CONTENT FHM VIỆT NAM
+                </h3>
+                <p>
+                  Quy trình dịch vụ nhanh chóng, được chúng tôi áp dụng để doanh
+                  nghiệp dễ dàng kiểm soát kế hoạch
+                </p>
+              </div>
+              <div class="row col-mb-30 align-content-stretch">
+                <ul
+                  class="process-steps process-5 row col-mb-30 justify-content-center mb-4"
+                >
+                  <li class="col-sm-6 col-lg-1-5">
+                    <a
+                      href="#"
+                      class="i-bordered i-circled mx-auto icon-shopping-cart"
+                    ></a>
+                    <h5>Tiếp nhận yêu cầu khách hàng</h5>
+                  </li>
+                  <li class="col-sm-6 col-lg-1-5">
+                    <a
+                      href="#"
+                      class="i-bordered i-circled mx-auto icon-pencil2"
+                    ></a>
+                    <h5>Xây dựng kế hoạch viết content</h5>
+                  </li>
+                  <li class="col-sm-6 col-lg-1-5">
+                    <a
+                      href="#"
+                      class="i-bordered i-circled mx-auto icon-money"
+                    ></a>
+                    <h5>Triển khai kế hoạch</h5>
+                  </li>
+                  <li class="col-sm-6 col-lg-1-5 active">
+                    <a
+                      href="#"
+                      class="i-circled i-alt mx-auto bg-color icon-like"
+                    ></a>
+                    <h5>Nghiệm thu sản phẩm</h5>
+                  </li>
+                  <li class="col-sm-6 col-lg-1-5">
+                    <a
+                      href="#"
+                      class="i-bordered i-circled mx-auto icon-ok"
+                    ></a>
+                    <h5>Bàn giao nội dung và bảo hành</h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price section
+				============================================= -->
+          <div class="section mb-0 price-section">
+            <div class="container">
+              <div class="heading-block border-bottom-0 center">
+                <div class="badge rounded-pill badge-default">Causes</div>
+                <h3 class="nott ls0">BẢNG GIÁ VIẾT CONTENT FHM VIỆT NAM</h3>
+              </div>
+              <div class="container">
+                <div class="row align-items-end content-row">
+                  <div class="col-lg-6">
+                    <!-- <div class="badge rounded-pill badge-default">SEO Ready</div> -->
+                    <h2 class="fw-bold">DỊCH VỤ VIẾT CONTENT THEO SỐ LƯỢNG</h2>
+                    <p>
+                      ● Dịch vụ này dựa trên số lượng bài viết mà khách hàng đã
+                      lên kế hoạch trước, FHM Việt Nam sẽ tiếp nhận thông tin và
+                      viết bài
+                      <br />● Thiết kế hình ảnh theo yêu cầu. Dịch vụ viết
+                      content theo số lượng phù hợp với những doanh nghiệp đã có
+                      nhân sự content marketing nhưng chưa hoạt động
+                    </p>
+
+                    <!-- <a href="#" class="button button-rounded button-large nott ls0"
+                      >Đăng kí tư vấn</a
+                    > -->
+                  </div>
+                  <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img
+                      src="./demos/seo/images/services/content_marketing.svg"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+
+                <div class="clear line my-6"></div>
+
+                <div class="clear"></div>
+              </div>
+              <div class="container">
+                <div class="row align-items-end flex-d-reverse content-row">
+                  <div class="col-lg-6">
+                    <!-- <div class="badge rounded-pill badge-default">SEO Ready</div> -->
+                    <h2 class="fw-bold">
+                      DỊCH VỤ VIẾT CONTENT THEO CHIẾN DỊCH
+                    </h2>
+                    <p>
+                      ● Mục tiêu thiết kế website của bạn. Dịch vụ viết content
+                      theo chiến dịch phù hợp với những doanh nghiệp Startup,
+                      vừa và nhỏ hiện chưa hình thành phòng Marketing riêng.
+                      <br />● FHM Việt Nam sẽ lên toàn bộ kế hoạch cũng như
+                      triển khai và báo cáo đo lường hiệu quả
+                    </p>
+
+                    <!-- <a href="#" class="button button-rounded button-large nott ls0"
+                      >Đăng kí tư vấn</a
+                    > -->
+                  </div>
+                  <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img
+                      src="./demos/seo/images/services/social.svg"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trust package -->
+
+          <div class="section bg-transparent trust-section">
+            <div class="container clearfix">
+              <div class="heading-block topmargin-lg center">
+                <h2>BẠN CÓ THỂ TIN TƯỞNG DỊCH VỤ VIẾT CONTENT FHM VIỆT NAM</h2>
+                <!-- <span class="mx-auto"
+                  >Philanthropy convener livelihoods, initiative end hunger
+                  gender rights local. John Lennon storytelling; advocate,
+                  altruism impact catalyst.</span
+                > -->
+              </div>
+              <div class="row col-mb-50 mb-4 align-items-center">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="feature-box flex-md-row-reverse text-md-end fadeIn animated trust-content-container"
+                    data-animate="fadeIn"
+                  >
+                    <div class="fbox-icon">
+                      <a href="#"><i class="icon-line-heart"></i></a>
+                    </div>
+                    <div class="fbox-content">
+                      <!-- <h3>Boxed &amp; Wide Layouts</h3> -->
+                      <p>
+                        Sáng tạo đột phá bắt nhịp nhanh chóng các xu hướng nội
+                        dung trên thế giới
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="feature-box flex-md-row-reverse text-md-end mt-5 fadeIn animated trust-content-container"
+                    data-animate="fadeIn"
+                    data-delay="200"
+                  >
+                    <div class="fbox-icon">
+                      <a href="#"><i class="icon-line-paper"></i></a>
+                    </div>
+                    <div class="fbox-content">
+                      <!-- <h3>Extensive Documentation</h3> -->
+                      <p>
+                        Liên tục tối ưu nội dung, viết bài với những key mạnh
+                        giúp lên top bền vững
+                      </p>
+                    </div>
+                  </div>
+                  <!-- <div
+                    class="feature-box flex-md-row-reverse text-md-end mt-5 fadeIn animated"
+                    data-animate="fadeIn"
+                    data-delay="400"
+                  >
+                    <div class="fbox-icon">
+                      <a href="#"><i class="icon-line-layers"></i></a>
+                    </div>
+                    <div class="fbox-content">
+                      <h3>Parallax Support</h3>
+                      <p>
+                        Display your Content attractively using Parallax
+                        Sections with HTML5 Videos.
+                      </p>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="col-lg-4 d-md-none d-lg-block text-center">
+                  <img
+                    src="./demos/seo/images/sections/2.png"
+                    alt="iphone 2"
+                    style="width: 60%"
+                  />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="feature-box fadeIn animated trust-content-container"
+                    data-animate="fadeIn"
+                  >
+                    <div class="fbox-icon">
+                      <a href="#"><i class="icon-line-power"></i></a>
+                    </div>
+                    <div class="fbox-content">
+                      <!-- <h3>HTML5 Video</h3> -->
+                      <p>
+                        Cam kết KPI theo giai đoạn, phù hợp ngành hàng, hiệu quả
+                        nhanh chóng
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="feature-box mt-5 fadeIn animated trust-content-container"
+                    data-animate="fadeIn"
+                    data-delay="200"
+                  >
+                    <div class="fbox-icon">
+                      <a href="#"><i class="icon-line-check"></i></a>
+                    </div>
+                    <div class="fbox-content">
+                      <!-- <h3>Endless Possibilities</h3> -->
+                      <p>
+                        Luôn đúng tiến độ, theo sát chiến dịch và phân bố nhân
+                        lực phục vụ khách hàng
+                      </p>
+                    </div>
+                  </div>
+                  <!-- <div
+                    class="feature-box mt-5 fadeIn animated"
+                    data-animate="fadeIn"
+                    data-delay="400"
+                  >
+                    <div class="fbox-icon">
+                      <a href="#"><i class="icon-bulb"></i></a>
+                    </div>
+                    <div class="fbox-content">
+                      <h3>Light &amp; Dark Color Schemes</h3>
+                      <p>
+                        Change your Website's Primary Scheme instantly by simply
+                        adding the dark class.
+                      </p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End trust section -->
+
+          <!-- Form Section
+				============================================= -->
+          <div
+            class="section mt-0"
+            style="
+              background: url('demos/seo/images/sections/1.jpg') no-repeat
+                center center;
+              background-size: cover;
+              padding: 100px 0;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 col-md-4">
+                  <div class="card shadow-sm">
+                    <div class="card-body fhm-form">
+                      <h4 class="mb-3">CHÚNG TÔI LUÔN SÃN SÀNG HỖ TRỢ BẠN</h4>
+                      <div class="form-widget">
+                        <div class="form-result"></div>
+                        <form
+                          class="row mb-0"
+                          id="template-contactform"
+                          name="template-contactform"
+                          action="http://themes.semicolonweb.com/html/canvas/include/form.php"
+                          method="post"
+                        >
+                          <div class="col-12 form-group mb-4">
+                            <label for="template-contactform-website"
+                              >SDT:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-website"
+                              name="template-contactform-website"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="col-12 form-group mb-3">
+                            <label for="template-contactform-email"
+                              >Email Address:*</label
+                            >
+                            <input
+                              type="email"
+                              id="template-contactform-email"
+                              name="template-contactform-email"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+                          <div class="col-12 form-group mb-3">
+                            <label for="template-contactform-name"
+                              >Họ tên:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-name"
+                              name="template-contactform-name"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="col-12 form-group mb-4">
+                            <label for="template-contactform-website"
+                              >Những thông tin khác:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-website"
+                              name="template-contactform-website"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+                          <div class="col-12 form-group mb-0">
+                            <button
+                              class="button button-rounded w-100 nott ls0 m-0"
+                              type="submit"
+                              id="template-contactform-submit"
+                              name="template-contactform-submit"
+                              value="submit"
+                            >
+                              Đăng kí ngay!
+                            </button>
+                          </div>
+
+                          <input
+                            type="hidden"
+                            name="prefix"
+                            value="template-contactform-"
+                          />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ -->
+
+          <div class="container bottommargin">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8 text-center">
+                <div class="heading-block border-bottom-0 center mx-auto">
+                  <div class="badge rounded-pill badge-default">
+                    Chúng tôi có thể giúp gì bạn?
+                  </div>
+                  <h3 class="nott ls0 mb-3">FAQ</h3>
+                  <p>
+                    Dynamically provide access to resource-leveling mindshare
+                    vis-a-vis bricks-and-clicks ideas authoritatively.
+                  </p>
+                </div>
+              </div>
+
+              <div class="clear"></div>
+
+              <!-- Post Content
+              ============================================= -->
+              <div class="col-lg-10">
+                <div class="grid-filter-wrap justify-content-center">
+                  <ul class="grid-filter style-4 customjs">
+                    <li class="">
+                      <a href="#" class="fw-semibold" data-filter="all">All</a>
+                    </li>
+                    <li class="activeFilter">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-marketplace"
+                        >Marketplace</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" class="fw-semibold" data-filter=".faq-authors"
+                        >Authors</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" class="fw-semibold" data-filter=".faq-legal"
+                        >Legal</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-itemdiscussion"
+                        >Item Discussion</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-affiliates"
+                        >Affiliates</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-miscellaneous"
+                        >Miscellaneous</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="faqs" class="faqs">
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-question-sign"></i>
+                        <i class="toggle-open icon-question-sign"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        How do I become an author?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-authors faq-miscellaneous"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-comments-alt"></i>
+                        <i class="toggle-open icon-comments-alt"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Helpful Resources for Authors
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-miscellaneous"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-lock3"></i>
+                        <i class="toggle-open icon-lock3"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        How much money can I make?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-authors faq-legal faq-itemdiscussion"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-download-alt"></i>
+                        <i class="toggle-open icon-download-alt"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Can I offer my items for free on a promotional basis?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-ok"></i>
+                        <i class="toggle-open icon-ok"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        An Introduction to the Marketplaces for Authors
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-affiliates faq-miscellaneous"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-money"></i>
+                        <i class="toggle-open icon-money"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        How does the Tuts+ Premium affiliate program work?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-legal faq-itemdiscussion"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-picture"></i>
+                        <i class="toggle-open icon-picture"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        What Images, Videos, Code or Music Can I Use in my
+                        Items?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-legal faq-authors faq-itemdiscussion"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-file3"></i>
+                        <i class="toggle-open icon-file3"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Can I use trademarked names in my items?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-affiliates"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-bar-chart"></i>
+                        <i class="toggle-open icon-bar-chart"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Tips for Increasing Your Referral Income
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-authors faq-itemdiscussion"
+                    style="display: none"
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-phone3"></i>
+                        <i class="toggle-open icon-phone3"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        How can I get support for an item which isn't working
+                        correctly?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-itemdiscussion"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-credit"></i>
+                        <i class="toggle-open icon-credit"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        How do I pay for items on the Marketplaces?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Assumenda, dolorum, vero ipsum molestiae minima odio quo
+                      voluptate illum excepturi quam cum voluptates doloribus
+                      quae nisi tempore necessitatibus dolores ducimus enim
+                      libero eaque explicabo suscipit animi at quaerat aliquid
+                      ex expedita perspiciatis? Saepe, aperiam, nam unde quas
+                      beatae vero vitae nulla.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- .postcontent end -->
+          </div>
+
+          <!-- End FAQ -->
+        </div>
+      </section>
+      <!-- #content end -->
+
+      <!-- Footer
+		============================================= -->
+      <footer id="footer" class="border-0 bg-white">
+        <div class="container">
+          <!-- Footer Widgets
+				============================================= -->
+          <div class="footer-widgets-wrap pb-5 clearfix">
+            <div class="row col-mb-50">
+              <div class="col-md-8">
+                <div class="widget clearfix">
+                  <img
+                    src="images/footer-widget-logo.png"
+                    alt="Footer Logo"
+                    class="alignleft"
+                    style="
+                      margin-top: 8px;
+                      padding-right: 18px;
+                      border-right: 1px solid #ddd;
+                    "
+                  />
+
+                  <p>
+                    We believe in <strong>Simple</strong>,
+                    <strong>Creative</strong> &amp;
+                    <strong>Flexible</strong> Design Standards with a Retina
+                    &amp; Responsive Approach. Browse the amazing Features this
+                    template offers.
+                  </p>
+
+                  <div class="line line-sm"></div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Forums</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Agency</a></li>
+                        <li><a href="#">eCommerce</a></li>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">One Page</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Restaurant</a></li>
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">App Showcase</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">Landing Page</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="widget clearfix">
+                  <div class="row clearfix">
+                    <div class="col-12">
+                      <div
+                        class="feature-box fbox-plain fbox-sm align-items-center"
+                      >
+                        <div class="fbox-icon">
+                          <i class="icon-envelope text-dark"></i>
+                        </div>
+                        <div class="fbox-content">
+                          <span class="text-muted">Call Us:</span><br />
+                          <h3 class="nott ls0 fw-semibold">(10) 22 33445566</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                      <div
+                        class="feature-box fbox-plain fbox-sm align-items-center"
+                      >
+                        <div class="fbox-icon">
+                          <i class="icon-phone3 text-dark"></i>
+                        </div>
+                        <div class="fbox-content">
+                          <span class="text-muted">Email Us:</span><br />
+                          <h3 class="nott ls0 fw-semibold">info@canvas.com</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="widget subscribe-widget clearfix">
+                  <h5>
+                    <strong>Subscribe</strong> to Our Newsletter to get
+                    Important News, Amazing Offers &amp; Inside Scoops:
+                  </h5>
+                  <div class="widget-subscribe-form-result"></div>
+                  <form
+                    id="widget-subscribe-form"
+                    action="http://themes.semicolonweb.com/html/canvas/include/subscribe.php"
+                    method="post"
+                    class="mb-0"
+                  >
+                    <div class="input-group mx-auto">
+                      <div class="input-group-text bg-transparent">
+                        <i class="icon-email2"></i>
+                      </div>
+                      <input
+                        type="email"
+                        id="widget-subscribe-form-email"
+                        name="widget-subscribe-form-email"
+                        class="form-control required email"
+                        placeholder="Enter your Email"
+                      />
+                      <button
+                        class="btn btn-success button button-color nott ls0 m-0"
+                        type="submit"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="widget">
+                  <div class="row col-mb-30">
+                    <div class="col-lg-6 col-md-12 col-6">
+                      <a
+                        href="https://facebook.com/semicolonweb"
+                        target="_blank"
+                        class="social-icon si-dark si-colored si-facebook mb-0"
+                        style="margin-right: 10px"
+                      >
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                      </a>
+                      <a
+                        href="https://facebook.com/semicolonweb"
+                        target="_blank"
+                        class="text-dark"
+                        ><small style="display: block; margin-top: 3px"
+                          ><strong>Like us</strong><br />on Facebook</small
+                        ></a
+                      >
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-6">
+                      <a
+                        href="https://themeforest.net/user/SemiColonWeb/follow"
+                        target="_blank"
+                        class="social-icon si-dark si-colored si-rss mb-0"
+                        style="margin-right: 10px"
+                      >
+                        <i class="icon-rss"></i>
+                        <i class="icon-rss"></i>
+                      </a>
+                      <a
+                        href="https://themeforest.net/user/SemiColonWeb/follow"
+                        target="_blank"
+                        class="text-dark"
+                        ><small style="display: block; margin-top: 3px"
+                          ><strong>Subscribe</strong><br />to RSS Feeds</small
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .footer-widgets-wrap end -->
+        </div>
+
+        <!-- Copyrights
+			============================================= -->
+        <div
+          id="copyrights"
+          style="
+            background: url('demos/seo/images/hero/footer.svg') no-repeat top
+              center;
+            background-size: cover;
+            padding-top: 70px;
+          "
+        >
+          <div class="container clearfix">
+            <div class="row justify-content-between col-mb-30">
+              <div class="col-12 col-lg-auto text-center text-lg-start">
+                Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br />
+                <div class="copyright-links">
+                  <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-auto text-center text-lg-end">
+                <div class="copyrights-menu copyright-links clearfix">
+                  <a href="#">Home</a>/<a href="#">About Us</a>/<a href="#"
+                    >Team</a
+                  >/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+
+    <!-- Main Particles Js
+	============================================= -->
+    <script src="js/particles/particles.min.js"></script>
+    <script src="js/particles/particles-line.js"></script>
+    <!-- Particles Line -->
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+  </body>
+
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-seo-optimizations.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 14:57:39 GMT -->
+</html>
