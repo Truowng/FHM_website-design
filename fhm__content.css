@@ -79,6 +79,10 @@
   background-color: #fff;
 }
 
+.caution-section {
+  background-color: #fff;
+}
+
 .trust-section {
   background-image: url("./demos/seo/images/sections/3.jpg");
   background-size: cover;
