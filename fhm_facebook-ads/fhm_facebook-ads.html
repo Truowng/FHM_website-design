@@ -1,0 +1,2366 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-seo-optimizations.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 14:57:38 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&amp;display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <!-- Bootstrap Switch CSS -->
+    <link
+      rel="stylesheet"
+      href="css/components/bs-switches.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./fhm_facebook-ads.css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
+
+    <!-- Seo Demo Specific Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="css/colors69bb.css?color=FE9603"
+      type="text/css"
+    />
+    <!-- Theme Color -->
+    <link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="demos/seo/seo.css" type="text/css" />
+    <!-- / -->
+
+    <!-- Document Title
+	============================================= -->
+    <title>FHM - Facebook Ads</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Top Bar
+		============================================= -->
+      <div id="top-bar" class="transparent-topbar dark">
+        <div class="container clearfix">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-auto">
+              <!-- Top Links
+						============================================= -->
+              <div class="top-links">
+                <ul class="top-links-container">
+                  <li class="top-links-item">
+                    <a href="demo-seo.html">Home</a>
+                  </li>
+                  <li class="top-links-item">
+                    <a href="demo-seo-faqs.html">FAQs</a>
+                  </li>
+                  <li class="top-links-item">
+                    <a href="demo-seo-contact.html">Contact</a>
+                  </li>
+                  <li class="top-links-item">
+                    <a href="#"
+                      ><img
+                        src="demos/seo/images/flags/eng.png"
+                        alt="Lang"
+                      />Eng</a
+                    >
+                    <ul class="top-links-sub-menu">
+                      <li class="top-links-item">
+                        <a href="#"
+                          ><img
+                            src="demos/seo/images/flags/fre.png"
+                            alt="Lang"
+                          />French</a
+                        >
+                      </li>
+                      <li class="top-links-item">
+                        <a href="#"
+                          ><img
+                            src="demos/seo/images/flags/ara.png"
+                            alt="Lang"
+                          />Arabic</a
+                        >
+                      </li>
+                      <li class="top-links-item">
+                        <a href="#"
+                          ><img
+                            src="demos/seo/images/flags/tha.png"
+                            alt="Lang"
+                          />Thai</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <!-- .top-links end -->
+            </div>
+
+            <div class="col-12 col-md-auto dark">
+              <!-- Top Social
+						============================================= -->
+              <ul id="top-social">
+                <li>
+                  <a
+                    href="https://facebook.com/semicolonweb"
+                    class="si-facebook"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-facebook"></i></span
+                    ><span class="ts-text">Facebook</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/__semicolon"
+                    class="si-twitter"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-twitter"></i></span
+                    ><span class="ts-text">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://youtube.com/semicolonweb"
+                    class="si-youtube"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-youtube"></i></span
+                    ><span class="ts-text">Youtube</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com/semicolonweb"
+                    class="si-instagram"
+                    target="_blank"
+                    ><span class="ts-icon"><i class="icon-instagram2"></i></span
+                    ><span class="ts-text">Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+10.11.85412542" class="si-call"
+                    ><span class="ts-icon"><i class="icon-call"></i></span
+                    ><span class="ts-text">+10.11.85412542</span></a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:info@canvas.com" class="si-email3"
+                    ><span class="ts-icon"
+                      ><i class="icon-envelope-alt"></i></span
+                    ><span class="ts-text">info@canvas.com</span></a
+                  >
+                </li>
+              </ul>
+              <!-- #top-social end -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #top-bar end -->
+
+      <!-- Header
+		============================================= -->
+      <header
+        id="header"
+        class="transparent-header floating-header header-size-md"
+      >
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row">
+              <!-- Logo
+						============================================= -->
+              <div id="logo">
+                <a
+                  href="index-2.html"
+                  class="standard-logo"
+                  data-dark-logo="images/logo-dark.png"
+                  ><img src="./images/logo.png" alt="Canvas Logo"
+                /></a>
+                <a
+                  href="index-2.html"
+                  class="retina-logo"
+                  data-dark-logo="images/logo-dark@2x.png"
+                  ><img src="./images/logo%402x.png" alt="Canvas Logo"
+                /></a>
+              </div>
+              <!-- #logo end -->
+
+              <div class="header-misc">
+                <!-- Top Search
+							============================================= -->
+                <div id="top-search" class="header-misc-icon">
+                  <a href="#" id="top-search-trigger"
+                    ><i class="icon-line-search"></i
+                    ><i class="icon-line-cross"></i
+                  ></a>
+                </div>
+                <!-- #top-search end -->
+
+                <a
+                  href="demo-seo-about.html"
+                  class="button button-rounded ms-3 d-none d-sm-block"
+                  >Get Started</a
+                >
+              </div>
+
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div>
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu with-arrows">
+                <ul class="menu-container">
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo.html"
+                      ><div>Home</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo-about.html"
+                      ><div>What We Do</div></a
+                    >
+                  </li>
+                  <li class="menu-item mega-menu current">
+                    <div class="menu-link"><div>Services</div></div>
+                    <div class="mega-menu-content mega-menu-style-2 px-0">
+                      <div class="container">
+                        <div class="row">
+                          <a
+                            href="demo-seo-optimizations.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/seo.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Seo Optimization</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-social.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/social.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Social Media Marketing</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-adwords.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/adword.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Adwords Campaign</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-experience.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/experience.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Customer Experience</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-analysis.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/analysis.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Digital Analysis</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="demo-seo-content-marketing.html"
+                            class="mega-menu-column sub-menu-container col-lg-4 border-bottom h-bg-light py-4"
+                          >
+                            <div class="feature-box">
+                              <div class="fbox-icon mb-2">
+                                <img
+                                  src="demos/seo/images/icons/content_marketing.svg"
+                                  alt="Feature Icon"
+                                  class="bg-transparent rounded-0"
+                                />
+                              </div>
+                              <div class="fbox-content">
+                                <h3 class="nott ls0">Content Marketing</h3>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Commodi, ipsa!
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                          <div
+                            class="mega-menu-column sub-menu-container col-12 p-0"
+                          >
+                            <a
+                              href="demo-seo-about.html"
+                              class="button button-rounded button-large nott ls0 w-100 text-center m-0 rounded-0 py-3 button-light"
+                              >View All <i class="icon-line-arrow-right"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo-faqs.html"
+                      ><div>FAQs</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-seo-contact.html"
+                      ><div>Contact</div></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+
+              <form
+                class="top-search-form"
+                action="http://themes.semicolonweb.com/html/canvas/search.html"
+                method="get"
+              >
+                <input
+                  type="text"
+                  name="q"
+                  class="form-control"
+                  value=""
+                  placeholder="Type &amp; Hit Enter.."
+                  autocomplete="off"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+
+      <!-- Page Title
+		============================================= -->
+
+      <section
+        id="page-title"
+        class="page-title-parallax page-title-center page-title-dark include-header"
+        style="
+          background-image: linear-gradient(
+              to top,
+              rgba(254, 150, 3, 0.5),
+              #39384d
+            ),
+            url('demos/seo/images/services/seo-title.jpg');
+          background-size: cover;
+          padding: 120px 0;
+        "
+        data-bottom-top="background-position:0px 300px;"
+        data-top-bottom="background-position:0px -300px;"
+      >
+        <div id="particles-line"></div>
+
+        <div class="container clearfix mt-4">
+          <div class="badge rounded-pill border border-light text-light">
+            Services
+          </div>
+          <h1>FACEBOOK ADS</h1>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="demo-seo.html">Home</a></li>
+            <li class="breadcrumb-item">
+              <a href="demo-seo-about.html">Services</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              FACEBOOK ADS
+            </li>
+          </ol>
+        </div>
+      </section>
+      <!-- #page-title end -->
+
+      <!-- Content
+		============================================= -->
+      <section id="content">
+        <div class="content-wrap pb-0">
+          <div class="container">
+            <div class="row align-items-end flex-row-reverse">
+              <div class="col-lg-6">
+                <!-- <div class="badge rounded-pill badge-default">SEO Ready</div> -->
+                <h2 class="display-5 fw-bold">
+                  DỊCH VỤ QUẢNG CÁO FACEBOOK FHM VIỆT NAM CHI PHÍ THẤP - HIỆU
+                  QUẢ TỐI ĐA
+                </h2>
+                <p>
+                  FHM Việt Nam mang đến dịch vụ quảng cáo Facebook tối ưu - giải
+                  pháp gia tăng hiệu quả kinh doanh online, thúc đẩy doanh số
+                  bán hàng, nâng cao độ nhận diện thương hiệu của bạn.
+                </p>
+
+                <a href="#" class="button button-rounded button-large nott ls0"
+                  >Đăng kí tư vấn</a
+                >
+              </div>
+              <div class="col-lg-6 mt-4 mt-lg-0 text-center">
+                <img
+                  src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/first%20png.png"
+                  alt="Image"
+                />
+              </div>
+            </div>
+            <div class="clear line my-6"></div>
+          </div>
+          <div class="clear"></div>
+
+          <!-- START ADS -->
+
+          <div class="section mb-0 ads-sect">
+            <div class="container">
+              <div class="heading-block border-bottom-0 center">
+                <div class="badge rounded-pill badge-default">Causes</div>
+                <h3 class="nott ls0">
+                  LỢI ÍCH KHI SỬ DỤNG DỊCH VỤ QUẢNG CÁO FACEBOOK
+                </h3>
+              </div>
+              <div
+                class="row col-mb-30 align-content-stretch justify-content-center"
+              >
+                <div class="col-lg-6 col-md-6 d-flex">
+                  <div class="card">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-icon mb-3">
+                          <img
+                            src="demos/seo/images/icons/seo.svg"
+                            alt="Feature Icon"
+                            class="bg-transparent rounded-0"
+                          />
+                        </div>
+                        <div class="fbox-content">
+                          <h3 class="nott ls0 text-larger">
+                            Tiếp cận lượng lớn khách hàng
+                          </h3>
+                          <p class="text-smaller">
+                            Mở rộng tệp khách hàng tiềm năng với nền tảng mạng
+                            xã hội sở hữu 3 tỷ người dùng nhờ dịch vụ quảng cáo
+                            Facebook.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 d-flex">
+                  <div class="card">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-icon mb-3">
+                          <img
+                            src="demos/seo/images/icons/social.svg"
+                            alt="Feature Icon"
+                            class="bg-transparent rounded-0"
+                          />
+                        </div>
+                        <div class="fbox-content">
+                          <h3 class="nott ls0 text-larger">
+                            Xác định đúng đối tượng
+                          </h3>
+                          <p class="text-smaller">
+                            Dễ dàng target đúng phạm vi, hành vi, nhân khẩu học
+                            của đối tượng mục tiêu nhờ dịch vụ quảng cáo
+                            Facebook.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 d-flex">
+                  <div class="card">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-icon mb-3">
+                          <img
+                            src="demos/seo/images/icons/content_marketing.svg"
+                            alt="Feature Icon"
+                            class="bg-transparent rounded-0"
+                          />
+                        </div>
+                        <div class="fbox-content">
+                          <h3 class="nott ls0 text-larger">Tối ưu chi phí</h3>
+                          <p class="text-smaller">
+                            Tiết kiệm chi phí, thúc đẩy chuyển đổi mua hàng, thu
+                            thập data khách hàng dễ dàng với dịch vụ quảng cáo
+                            Facebook.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 d-flex">
+                  <div class="card">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-icon mb-3">
+                          <img
+                            src="demos/seo/images/icons/analysis.svg"
+                            alt="Feature Icon"
+                            class="bg-transparent rounded-0"
+                          />
+                        </div>
+                        <div class="fbox-content">
+                          <h3 class="nott ls0 text-larger">
+                            Nâng cao nhận diện thương hiệu
+                          </h3>
+                          <p class="text-smaller">
+                            Tăng tương tác trên trang và traffic cho website,
+                            landing page, dễ dàng đo lường hiệu quả với dịch vụ
+                            quảng cáo Facebook.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END ADS -->
+
+          <!-- START ADS TYPES-->
+
+          <div class="section mb-0">
+            <div class="container">
+              <div class="heading-block border-bottom-0 center">
+                <div class="badge rounded-pill badge-default">Causes</div>
+                <h3 class="nott ls0">CÁC HÌNH THỨC QUẢNG CÁO FACEBOOK</h3>
+                <p>
+                  Dịch vụ quảng cáo Facebook FHM Việt Nam cung cấp giải pháp
+                  tương ứng với các hình thức, tùy chọn quảng cáo đa dạng và
+                  thông minh nhằm phục vụ nhu cầu tiếp thị của doanh nghiệp
+                </p>
+              </div>
+              <div
+                id="oc-portfolio"
+                class="owl-carousel portfolio-carousel carousel-widget"
+                data-pagi="false"
+                data-items-xs="1"
+                data-items-sm="2"
+                data-items-md="3"
+                data-items-lg="4"
+              >
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/3.jpg"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="images/portfolio/full/1.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Carousel ads</a>
+                    </h3>
+                    <span
+                      >Cho phép giới thiệu nhiều sản phẩm/dịch vụ cùng lúc
+                    </span>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/2.jpg"
+                        alt="Locked Steel Gate"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="images/portfolio/full/2.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Dynamic product ads</a>
+                    </h3>
+                    <span
+                      >Đề xuất các sản phẩm mà khách hàng có thể quan tâm
+                    </span>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="#">
+                      <img
+                        src="images/portfolio/4/3.jpg"
+                        alt="Mac Sunglasses"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="https://vimeo.com/89396394"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="iframe"
+                          ><i class="icon-line-play"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single-video.html">Videos view</a>
+                    </h3>
+                    <span
+                      >Đem đến những thước phim chân thật về hiệu quả của sản
+                      phẩm</span
+                    >
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="#">
+                      <img src="images/portfolio/4/4.jpg" alt="Morning Dew" />
+                    </a>
+                    <div class="bg-overlay" data-lightbox="gallery">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/4.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="gallery-item"
+                          ><i class="icon-line-stack-2"></i
+                        ></a>
+                        <a
+                          href="images/portfolio/full/4-1.jpg"
+                          class="d-none"
+                          data-lightbox="gallery-item"
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single-gallery.html">Conversion</a>
+                    </h3>
+                    <span
+                      >Tương thích nhiều nền tảng, đẩy nhanh tốc độ quyết định
+                      mua hàng</span
+                    >
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/5.jpg"
+                        alt="Console Activity"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/5.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          title="Image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Leads ads</a>
+                    </h3>
+                    <span
+                      >Tìm kiếm khách hàng tiềm năng, thu thập thông tin, khảo
+                      sát khách hàng
+                    </span>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single-gallery.html">
+                      <img src="images/portfolio/4/6.jpg" alt="Shake It!" />
+                    </a>
+                    <div class="bg-overlay" data-lightbox="gallery">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/6.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="gallery-item"
+                          ><i class="icon-line-stack-2"></i
+                        ></a>
+                        <a
+                          href="images/portfolio/full/6-1.jpg"
+                          class="d-none"
+                          data-lightbox="gallery-item"
+                        ></a>
+                        <a
+                          href="images/portfolio/full/6-2.jpg"
+                          class="d-none"
+                          data-lightbox="gallery-item"
+                        ></a>
+                        <a
+                          href="images/portfolio/full/6-3.jpg"
+                          class="d-none"
+                          data-lightbox="gallery-item"
+                        ></a>
+                        <a
+                          href="portfolio-single-gallery.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single-gallery.html"
+                        >Abandoned Cart Ads</a
+                      >
+                    </h3>
+                    <span
+                      >Thúc đẩy khách hoàn tất mua các sản phẩm trong giỏ
+                      hàng</span
+                    >
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single-video.html">
+                      <img
+                        src="images/portfolio/4/7.jpg"
+                        alt="Backpack Contents"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="https://www.youtube.com/watch?v=kuceVNBTJio"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="iframe"
+                          ><i class="icon-line-play"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single-video.html">Event Responsive</a>
+                    </h3>
+                    <span>
+                      Kích thích đối tượng mục tiêu tương tác với chương trình
+                      sự kiện</span
+                    >
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/8.jpg"
+                        alt="Sunset Bulb Glow"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/8.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          title="Image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Click to web</a>
+                    </h3>
+                    <span
+                      >Điều hướng khách mua hàng trên web hoặc sàn thương mại
+                      điện tử
+                    </span>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/8.jpg"
+                        alt="Sunset Bulb Glow"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/8.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          title="Image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Click to mess</a>
+                    </h3>
+                    <span
+                      >Nâng cao hiệu quả bán hàng, giải đáp thắc mắc, thuận tiện
+                      chốt đơn</span
+                    >
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/8.jpg"
+                        alt="Sunset Bulb Glow"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/8.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          title="Image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Page likes</a>
+                    </h3>
+                    <span
+                      >Thu hút lượt theo dõi, tăng lượng like cho trang
+                    </span>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/8.jpg"
+                        alt="Sunset Bulb Glow"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/8.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          title="Image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Page Post Engagement</a>
+                    </h3>
+                    <span
+                      >Tăng tương tác, phủ nhận diện cho bài viết, thương
+                      hiệu</span
+                    >
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="images/portfolio/4/8.jpg"
+                        alt="Sunset Bulb Glow"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                      >
+                        <a
+                          href="images/portfolio/full/8.jpg"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          title="Image"
+                          ><i class="icon-line-plus"></i
+                        ></a>
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeOutUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">App install</a>
+                    </h3>
+                    <span>Quảng bá cài đặt ứng dụng trên điện thoại</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear line my-6"></div>
+            </div>
+            <!-- END ADS TYPES-->
+
+            <!-- START PRICE -->
+            <div class="container">
+              <div class="heading-block border-bottom-0 center mx-auto">
+                <h3 class="nott ls0 mb-3">
+                  BẢNG GIÁ DỊCH VỤ QUẢNG CÁO FACEBOOK FHM VIỆT NAM
+                </h3>
+                <p>
+                  Với đội ngũ kỹ thuật viên dày dặn kinh nghiệm, chúng tôi đem
+                  đến dịch vụ quảng cáo facebook FHM Việt Nam với nhiều gói đa
+                  dạng đáp ứng nhu cầu của quý doanh nghiệp. Các gói dịch vụ
+                  quảng cáo Facebook được tùy chỉnh theo loại hình quảng cáo và
+                  mục đích của nhãn hàng.
+                </p>
+              </div>
+
+              <div class="row col-mb-30 align-content-stretch">
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <div class="card h-shadow h-translate-y-sm all-ts">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-content mb-5">
+                          <h3 class="nott ls0 text-larger text-center">
+                            Gói 1
+                          </h3>
+                        </div>
+
+                        <div class="fbox-image text-center mb-5">
+                          <img
+                            height="auto"
+                            src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                            alt="LANDING PAGE"
+                          />
+                        </div>
+
+                        <a
+                          href="https://fhmvietnam.vn/bang-gia-thiet-ke-website-theo-mau"
+                          class="button button-rounded button-fill button-primary button-large ls0 text-uppercase text-center"
+                        >
+                          <span>BÁO GIÁ</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <div class="card h-shadow h-translate-y-sm all-ts">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-content mb-5">
+                          <h3 class="nott ls0 text-larger text-center">
+                            Gói 2
+                          </h3>
+                        </div>
+
+                        <div class="fbox-image text-center mb-5">
+                          <img
+                            height="auto"
+                            src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                            alt="LANDING PAGE"
+                          />
+                        </div>
+
+                        <a
+                          href="https://fhmvietnam.vn/bang-gia-thiet-ke-website-theo-mau"
+                          class="button button-rounded button-fill button-large ls0 text-uppercase text-center"
+                        >
+                          <span>BÁO GIÁ</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <div class="card h-shadow h-translate-y-sm all-ts">
+                    <div class="card-body p-5">
+                      <div class="feature-box flex-column">
+                        <div class="fbox-content mb-5">
+                          <h3 class="nott ls0 text-larger text-center">
+                            Gói 3
+                          </h3>
+                        </div>
+
+                        <div class="fbox-image text-center mb-5">
+                          <img
+                            height="auto"
+                            src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                            alt="LANDING PAGE"
+                          />
+                        </div>
+
+                        <a
+                          href="https://fhmvietnam.vn/bang-gia-thiet-ke-website-theo-mau"
+                          class="button button-rounded button-fill button-primary button-large ls0 text-uppercase text-center"
+                        >
+                          <span>BÁO GIÁ</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PRICE -->
+          </div>
+
+          <!-- START CHOOSING US -->
+          <div class="section bg-transparent mb-0">
+            <div class="container">
+              <div class="row align-items-start flex-row-reverse">
+                <div class="col-lg-6">
+                  <ul style="width: 90%; text-align: justify">
+                    <li class="mb-1">
+                      TẠI SAO NÊN LỰA CHỌN DỊCH VỤ QUẢNG CÁO FACEBOOK FHM VIỆT
+                      NAM?
+                    </li>
+                    <li class="mb-3">
+                      Hỗ trợ giải quyết vấn đề phát sinh khi sử dụng dịch vụ
+                      quảng cáo facebook tận tình bởi chuyên gia khi xảy ra sự
+                      cố về phân phối hay fanpage bị khóa, chặn quảng cáo
+                    </li>
+                    <li class="mb-3">
+                      Triển khai chiến lược quảng cáo theo gói dịch vụ quảng cáo
+                      Facebook sáng tạo tùy theo ngân sách của doanh nghiệp
+                    </li>
+                    <li class="mb-3">
+                      Giá dịch vụ quảng cáo facebook FHM Việt Nam phải chăng,
+                      tiết kiệm chi phí
+                    </li>
+                    <li class="mb-3">
+                      Set up, triển khai và giúp bạn theo dõi hiệu quả trong quá
+                      trình sử dụng dịch vụ quảng cáo Facebook
+                    </li>
+                    <li class="mb-3">
+                      100% các gói dịch vụ quảng cáo facebook FHM Việt Nam đều
+                      có văn bản hợp đồng đầy đủ
+                    </li>
+                    <li class="mb-3">
+                      Dịch vụ quảng cáo facebook FHM Việt Nam hỗ trợ nội dung và
+                      hình ảnh quảng cáo đẹp, thu hút, chuyên nghiệp
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0 text-center">
+                  <h2 class="display-6 fw-bold" style="text-align: left">
+                    TẠI SAO NÊN CHỌN DỊCH VỤ GOOGLE ADS FHM VIỆT NAM?
+                  </h2>
+                  <img
+                    src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END CHOOSING US -->
+
+          <!-- START STEP -->
+          <div class="section mb-0">
+            <div class="container mw-md">
+              <div
+                class="heading-block border-bottom-0 center mx-auto"
+                style="max-width: 550px"
+              >
+                <div class="badge rounded-pill badge-default">QUY TRÌNH</div>
+                <h3 class="nott ls0 mb-3">
+                  QUY TRÌNH DỊCH VỤ QUẢNG CÁO FACEBOOK FHM VIỆT NAM
+                </h3>
+              </div>
+              <img
+                src="https://seongon.com/wp-content/uploads/2021/03/Seodestop-1.png"
+                alt=""
+              />
+
+              <!-- <div class="text-md-center">
+                <h3
+                  class="bg-color d-inline-block px-4 py-2 text-white mb-0 rounded-1"
+                >
+                  7 BƯỚC
+                </h3>
+              </div>
+              <div class="story-timeline">
+                <div class="clear mt-4"></div>
+                <div class="story-timeline-line"></div>
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 text-md-end">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5">
+                    <h3 class="mb-3">Tiếp nhận yêu cầu</h3>
+                    Tiếp nhận thông tin về lĩnh vực hoạt động, sản phẩm, dịch vụ
+                    của doanh nghiệp cho dịch vụ Google Ads.
+                  </div>
+                </div>
+
+                <div class="clear my-5"></div>
+
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 order-md-2">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5 text-md-end">
+                    <h3 class="mb-3">Tư vấn và báo giá</h3>
+                    Dựa trên thông tin và những nghiên cứu từ khóa phù hợp để tư
+                    vấn dịch vụ Google Ads cho khách hàng
+                  </div>
+                </div>
+
+                <div class="clear my-5"></div>
+
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 text-md-end">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5">
+                    <h3 class="mb-3">Nghiên cứu và xây dựng kế hoạch</h3>
+                    Phân tích trang web, tìm hiểu sản phẩm, từ khóa để lên kế
+                    hoạch chi tiết cho dịch vụ Google Ads hiệu quả.
+                  </div>
+                </div>
+
+                <div class="clear my-5"></div>
+
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 order-md-2">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5 text-md-end">
+                    <h3 class="mb-3">Tiến hành ký kết hợp đồng</h3>
+                    Chốt các điều khoản dịch vụ, từ khóa, loại hình quảng cáo và
+                    đi đến thống nhất phương thức thanh toán, ký kết hợp đồng
+                    dịch vụ Google Ads.
+                  </div>
+                </div>
+
+                <div class="clear my-5"></div>
+
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 text-md-end">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5">
+                    <h3 class="mb-3">Sáng tạo nội dung</h3>
+                    Dịch vụ Google Ads FHM Việt Nam hỗ trợ khách hàng xây dựng
+                    nội dung, hình ảnh chất lượng phù hợp với từng hình thức
+                    chạy quảng cáo.
+                  </div>
+                </div>
+                <div class="clear my-5"></div>
+
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 order-md-2">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5 text-md-end">
+                    <h3 class="mb-3">Thiết lập quảng cáo</h3>
+                    Tiến hành triển khai chiến dịch theo yêu cầu về dịch vụ
+                    Google Ads, đảm bảo hiệu quả thu hút khách hàng tiềm năng,
+                    thúc đẩy doanh số
+                  </div>
+                </div>
+
+                <div class="clear my-5"></div>
+
+                <div class="row justify-content-md-center">
+                  <div class="col-md-5 text-md-end">
+                    <img
+                      src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="story-timeline-dots"></div>
+                  <div class="col-md-5">
+                    <h3 class="mb-3">Theo dõi đánh giá và báo cáo</h3>
+                    Kỹ thuật viên của FHM theo dõi, đo lường, test, điều chỉnh
+                    để tối ưu chi phí, lượng chuyển đổi. Báo cáo chi tiết cho
+                    dịch vụ Google Ads sẽ được gửi theo tuần, tháng.
+                  </div>
+                </div>
+                <div class="clear my-5"></div>
+              </div> -->
+            </div>
+          </div>
+          <!-- END STEP -->
+
+          <!-- START SOLUTION -->
+
+          <div class="section bg-transparent mt-0 mb-0">
+            <div class="container mw-md">
+              <div
+                class="heading-block border-bottom-0 center mx-auto"
+                style="max-width: 550px"
+              >
+                <div class="badge rounded-pill badge-default">QUY TRÌNH</div>
+                <h3 class="nott ls0 mb-3">
+                  GIẢI PHÁP TOÀN DIỆN CHO CỬA HÀNG TRỰC TUYẾN CỦA BẠN
+                </h3>
+                <p>
+                  Không chỉ dịch vụ quảng cáo Facebook, FHM Việt Nam còn cung
+                  cấp đa dạng các dịch vụ quảng cáo khác
+                </p>
+              </div>
+              <div
+                id="oc-portfolio"
+                class="owl-carousel portfolio-carousel carousel-widget"
+                data-pagi="false"
+                data-items-xs="1"
+                data-items-sm="2"
+                data-items-md="3"
+                data-items-lg="4"
+              >
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Quảng cáo Google ads</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Quảng cáo TikTok ads</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Quảng cáo Zalo ads</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Quảng cáo Youtube ads</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="https://fhmvietnam.vn/data/cms-image/Page%20d%E1%BB%8Bch%20v%E1%BB%A5%20thi%E1%BA%BFt%20k%E1%BA%BF%20website/third.png"
+                        alt="Open Imagination"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="portfolio-single.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="fadeInDownSmall"
+                          data-hover-animate-out="fadeInUpSmall"
+                          data-hover-speed="350"
+                          ><i class="icon-line-ellipsis"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc">
+                    <h3>
+                      <a href="portfolio-single.html">Quảng cáo khác</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END SOLUTION -->
+
+          <!-- START FORM
+				============================================= -->
+          <div
+            class="section mt-0"
+            style="
+              background: url('demos/seo/images/sections/1.jpg') no-repeat
+                center center;
+              background-size: cover;
+              padding: 100px 0;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 col-md-4">
+                  <h3 class="text-center">
+                    ĐĂNG KÝ NHẬN TƯ VẤN VÀ BÁO GIÁ DỊCH VỤ GOOGLE ADS FHM VIỆT
+                    NAM
+                  </h3>
+                  <div class="card shadow-sm">
+                    <div class="card-body fhm-form">
+                      <h4 class="mb-3">CHÚNG TÔI LUÔN SÃN SÀNG HỖ TRỢ BẠN</h4>
+                      <div class="form-widget">
+                        <div class="form-result"></div>
+                        <form
+                          class="row mb-0"
+                          id="template-contactform"
+                          name="template-contactform"
+                          action="http://themes.semicolonweb.com/html/canvas/include/form.php"
+                          method="post"
+                        >
+                          <div class="col-12 form-group mb-4">
+                            <label for="template-contactform-website"
+                              >SDT:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-website"
+                              name="template-contactform-website"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="col-12 form-group mb-3">
+                            <label for="template-contactform-email"
+                              >Email Address:*</label
+                            >
+                            <input
+                              type="email"
+                              id="template-contactform-email"
+                              name="template-contactform-email"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+                          <div class="col-12 form-group mb-3">
+                            <label for="template-contactform-name"
+                              >Họ tên:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-name"
+                              name="template-contactform-name"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="col-12 form-group mb-4">
+                            <label for="template-contactform-website"
+                              >Những thông tin khác:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-website"
+                              name="template-contactform-website"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+                          <div class="col-12 form-group mb-0">
+                            <button
+                              class="button button-rounded w-100 nott ls0 m-0"
+                              type="submit"
+                              id="template-contactform-submit"
+                              name="template-contactform-submit"
+                              value="submit"
+                            >
+                              Đăng kí ngay!
+                            </button>
+                          </div>
+
+                          <input
+                            type="hidden"
+                            name="prefix"
+                            value="template-contactform-"
+                          />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END FORM -->
+
+          <!-- FAQ -->
+
+          <div class="container bottommargin">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8 text-center">
+                <div class="heading-block border-bottom-0 center mx-auto">
+                  <div class="badge rounded-pill badge-default">
+                    Chúng tôi có thể giúp gì bạn?
+                  </div>
+                  <h3 class="nott ls0 mb-3">CÂU HỎI THƯỜNG GẶP</h3>
+                  <p>
+                    Nhằm hỗ trợ doanh nghiệp hiểu hơn về dịch vụ quảng cáo
+                    Facebook, FHM Việt Nam luôn sẵn sàng giải đáp các thắc mắc.
+                    Tham khảo một số thông tin về dịch vụ quảng cáo facebook
+                    dưới đây:
+                  </p>
+                </div>
+              </div>
+
+              <div class="clear"></div>
+
+              <!-- Post Content
+              ============================================= -->
+              <div class="col-lg-10">
+                <div class="grid-filter-wrap justify-content-center">
+                  <ul class="grid-filter style-4 customjs">
+                    <li class="">
+                      <a href="#" class="fw-semibold" data-filter="all">All</a>
+                    </li>
+                    <li class="activeFilter">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-marketplace"
+                        >Marketplace</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" class="fw-semibold" data-filter=".faq-authors"
+                        >Authors</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#" class="fw-semibold" data-filter=".faq-legal"
+                        >Legal</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-itemdiscussion"
+                        >Item Discussion</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-affiliates"
+                        >Affiliates</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#"
+                        class="fw-semibold"
+                        data-filter=".faq-miscellaneous"
+                        >Miscellaneous</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="faqs" class="faqs">
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-question-sign"></i>
+                        <i class="toggle-open icon-question-sign"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Ngân sách tối thiểu cho dịch vụ quảng cáo Facebook FHM
+                        Việt Nam là bao nhiêu?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Tùy thuộc vào tính chất sản phẩm dịch vụ của doanh nghiệp,
+                      mức ngân sách cho dịch vụ facebook ads cũng sẽ khác nhau
+                      tuy nhiên hiện tại chưa có một mức phí cố định nào cho các
+                      chiến dịch quảng cáo trên Facebook. Dù vậy, để thực hiện
+                      quảng cáo trên nền tảng mạng xã hội phổ biến nhất thế
+                      giới, nhãn hàng cần chi ít nhất 24.000VND/ngày.
+                    </div>
+                  </div>
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-question-sign"></i>
+                        <i class="toggle-open icon-question-sign"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Những ngành hàng nào không được chạy quảng cáo?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Hầu hết các lĩnh vực kinh doanh đều có thể khởi chạy quảng
+                      cáo trên Facebook, tuy nhiên vẫn sẽ có những ngoại lệ bị
+                      nhà sáng tạo này hạn chế tối đa, thậm chí là cấm. Nếu
+                      không muốn vi phạm chính sách quảng cáo của nền tảng này,
+                      bạn cần ghi nhớ để tránh ảnh hưởng tới kết quả chiến dịch
+                      của mình nhé. Một số lĩnh vực, ngành hàng hạn chế sử dụng
+                      dịch vụ facebook ads có thể kể tới như: Cho vay tín chấp,
+                      tiền tệ; đấu giá tiền xu, sản phẩm/dịch vụ tài chính như
+                      tiền ảo, Thuốc lá, rượu, cờ bạc, sản phẩm dùng để theo
+                      dõi/xâm phạm quyền riêng tư của người khác như camera quay
+                      lén… Bạn có thể xem thêm ở mục chính sách quảng cáo của
+                      Meta để nắm rõ chi tiết để tối ưu việc sử dụng Dịch vụ
+                      quảng cáo Facebook.
+                    </div>
+                  </div>
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-question-sign"></i>
+                        <i class="toggle-open icon-question-sign"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Dịch vụ quảng cáo facebook FHM Việt Nam có hỗ trợ viết
+                        bài và thiết kế ảnh không?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Với bất kỳ gói dịch vụ quảng cáo Facebook nào mà doanh
+                      nghiệp lựa chọn, chỉ cần cung cấp đầy đủ thông tin sản
+                      phẩm, FHM sẽ hỗ trợ xây dựng nội dung, thiết kế hình ảnh
+                      và đăng lên fanpage. Số lượng bài viết và hình ảnh sẽ phụ
+                      thuộc vào gói dịch vụ cũng như giá trị hợp đồng.
+                    </div>
+                  </div>
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-question-sign"></i>
+                        <i class="toggle-open icon-question-sign"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Dịch vụ quảng cáo facebook FHM Việt Nam có cam kết doanh
+                        số bán hàng không?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Dịch vụ quảng cáo Facebook FHM Việt Nam không cam kết
+                      doanh số vì quảng cáo chỉ là yếu tố đóng vai trò giúp đưa
+                      sản phẩm, dịch vụ tới gần khách hàng mục tiêu, thúc đẩy
+                      nhu cầu để họ tương tác và liên hệ tới doanh nghiệp. Việc
+                      bán hàng được hay không sẽ phụ thuộc vào chất lượng sản
+                      phẩm, dịch vụ tư vấn, chế độ hậu mãi và hơn thế nữa.
+                    </div>
+                  </div>
+                  <div
+                    class="toggle faq pb-3 mb-4 faq-marketplace faq-authors"
+                    style=""
+                  >
+                    <div class="toggle-header">
+                      <div class="toggle-icon color">
+                        <i class="toggle-closed icon-question-sign"></i>
+                        <i class="toggle-open icon-question-sign"></i>
+                      </div>
+                      <div class="toggle-title fw-semibold ps-1">
+                        Doanh nghiệp cần gì để sử dụng Dịch vụ quảng cáo
+                        facebook FHM Việt Nam?
+                      </div>
+                      <div class="toggle-icon color">
+                        <i
+                          class="toggle-closed icon-chevron-down text-black-50"
+                        ></i>
+                        <i class="toggle-open icon-chevron-up color"></i>
+                      </div>
+                    </div>
+                    <div
+                      class="toggle-content text-black-50 ps-4"
+                      style="display: none"
+                    >
+                      Như đã đề cập ở trên, khi sử dụng dịch vụ facebook ads
+                      khách hàng cần cung cấp thông tin doanh nghiệp, sản phẩm,
+                      dịch vụ chính trong chiến dịch quảng cáo. Dịch vụ quảng
+                      cáo Facebook FHM Việt Nam sẽ dựa vào đó để xây dựng kế
+                      hoạch, nội dung, hình ảnh phù hợp nhất.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- .postcontent end -->
+          </div>
+
+          <!-- End FAQ -->
+        </div>
+      </section>
+      <!-- #content end -->
+
+      <!-- Footer
+		============================================= -->
+      <footer id="footer" class="border-0 bg-white">
+        <div class="container">
+          <!-- Footer Widgets
+				============================================= -->
+          <div class="footer-widgets-wrap pb-5 clearfix">
+            <div class="row col-mb-50">
+              <div class="col-md-8">
+                <div class="widget clearfix">
+                  <img
+                    src="images/footer-widget-logo.png"
+                    alt="Footer Logo"
+                    class="alignleft"
+                    style="
+                      margin-top: 8px;
+                      padding-right: 18px;
+                      border-right: 1px solid #ddd;
+                    "
+                  />
+
+                  <p>
+                    We believe in <strong>Simple</strong>,
+                    <strong>Creative</strong> &amp;
+                    <strong>Flexible</strong> Design Standards with a Retina
+                    &amp; Responsive Approach. Browse the amazing Features this
+                    template offers.
+                  </p>
+
+                  <div class="line line-sm"></div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Forums</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Agency</a></li>
+                        <li><a href="#">eCommerce</a></li>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">One Page</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                      <ul>
+                        <li><a href="#">Restaurant</a></li>
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">App Showcase</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">Landing Page</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="widget clearfix">
+                  <div class="row clearfix">
+                    <div class="col-12">
+                      <div
+                        class="feature-box fbox-plain fbox-sm align-items-center"
+                      >
+                        <div class="fbox-icon">
+                          <i class="icon-envelope text-dark"></i>
+                        </div>
+                        <div class="fbox-content">
+                          <span class="text-muted">Call Us:</span><br />
+                          <h3 class="nott ls0 fw-semibold">(10) 22 33445566</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                      <div
+                        class="feature-box fbox-plain fbox-sm align-items-center"
+                      >
+                        <div class="fbox-icon">
+                          <i class="icon-phone3 text-dark"></i>
+                        </div>
+                        <div class="fbox-content">
+                          <span class="text-muted">Email Us:</span><br />
+                          <h3 class="nott ls0 fw-semibold">info@canvas.com</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="widget subscribe-widget clearfix">
+                  <h5>
+                    <strong>Subscribe</strong> to Our Newsletter to get
+                    Important News, Amazing Offers &amp; Inside Scoops:
+                  </h5>
+                  <div class="widget-subscribe-form-result"></div>
+                  <form
+                    id="widget-subscribe-form"
+                    action="http://themes.semicolonweb.com/html/canvas/include/subscribe.php"
+                    method="post"
+                    class="mb-0"
+                  >
+                    <div class="input-group mx-auto">
+                      <div class="input-group-text bg-transparent">
+                        <i class="icon-email2"></i>
+                      </div>
+                      <input
+                        type="email"
+                        id="widget-subscribe-form-email"
+                        name="widget-subscribe-form-email"
+                        class="form-control required email"
+                        placeholder="Enter your Email"
+                      />
+                      <button
+                        class="btn btn-success button button-color nott ls0 m-0"
+                        type="submit"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="widget">
+                  <div class="row col-mb-30">
+                    <div class="col-lg-6 col-md-12 col-6">
+                      <a
+                        href="https://facebook.com/semicolonweb"
+                        target="_blank"
+                        class="social-icon si-dark si-colored si-facebook mb-0"
+                        style="margin-right: 10px"
+                      >
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                      </a>
+                      <a
+                        href="https://facebook.com/semicolonweb"
+                        target="_blank"
+                        class="text-dark"
+                        ><small style="display: block; margin-top: 3px"
+                          ><strong>Like us</strong><br />on Facebook</small
+                        ></a
+                      >
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-6">
+                      <a
+                        href="https://themeforest.net/user/SemiColonWeb/follow"
+                        target="_blank"
+                        class="social-icon si-dark si-colored si-rss mb-0"
+                        style="margin-right: 10px"
+                      >
+                        <i class="icon-rss"></i>
+                        <i class="icon-rss"></i>
+                      </a>
+                      <a
+                        href="https://themeforest.net/user/SemiColonWeb/follow"
+                        target="_blank"
+                        class="text-dark"
+                        ><small style="display: block; margin-top: 3px"
+                          ><strong>Subscribe</strong><br />to RSS Feeds</small
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .footer-widgets-wrap end -->
+        </div>
+
+        <!-- Copyrights
+			============================================= -->
+        <div
+          id="copyrights"
+          style="
+            background: url('demos/seo/images/hero/footer.svg') no-repeat top
+              center;
+            background-size: cover;
+            padding-top: 70px;
+          "
+        >
+          <div class="container clearfix">
+            <div class="row justify-content-between col-mb-30">
+              <div class="col-12 col-lg-auto text-center text-lg-start">
+                Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br />
+                <div class="copyright-links">
+                  <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-auto text-center text-lg-end">
+                <div class="copyrights-menu copyright-links clearfix">
+                  <a href="#">Home</a>/<a href="#">About Us</a>/<a href="#"
+                    >Team</a
+                  >/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+
+    <!-- Main Particles Js
+	============================================= -->
+    <script src="js/particles/particles.min.js"></script>
+    <script src="js/particles/particles-line.js"></script>
+    <!-- Particles Line -->
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+  </body>
+
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-seo-optimizations.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 14:57:39 GMT -->
+</html>
