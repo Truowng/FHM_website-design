@@ -61,10 +61,6 @@
   align-items: center !important;
 }
 
-.price-section {
-  background-color: #fff;
-}
-
 .trust-section {
   background-image: url("./demos/seo/images/sections/3.jpg");
   background-size: cover;
@@ -127,4 +123,57 @@
 
 .ads-sect .fbox-content {
   text-align: center;
+}
+
+/* START PRICE */
+
+#price .feature-box {
+  height: 100%;
+}
+
+#price .fbox-content {
+  flex: unset;
+}
+
+#price .feature-box .fbox-content:nth-of-type(4) {
+  flex: 1;
+}
+
+#price .card {
+  min-width: 100%;
+}
+
+#price .fbox-content h3 {
+  font-size: 35px;
+}
+
+#price .fbox-content p {
+  color: #000;
+}
+
+.icon-star3 {
+  color: #3293ce;
+  margin: 0 2px;
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.price-money p span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #3293ce;
+}
+
+.fbox-content li {
+  list-style: none;
+}
+
+.fbox-content li i {
+  color: #3293ce;
+  margin-top: 2px;
+}
+
+#price .button {
+  background-color: #3293ce;
 }
